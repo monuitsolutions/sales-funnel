@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+.main-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.main-container .img-container {
+    width: 48%;
+}
+
+.main-container .img-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-container .info-container {
+    width: 48%;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.main-container .info-container p {
+    margin-left: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 50%;
+    height: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: brown;
+    border-radius: 5px;
+    outline-style: none;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.cards {
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cards img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    width: 80%;
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer .video {
+    padding: 5px;
+}
+
+form {
+    border: solid 2px black;
+    margin-top: 1%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.name,
+.email {
+    width: 100%;
+}
+
+input[type=text],
+input[type=email] {
+    width: 98%;
+    font-size: 18px;
+    padding: 2px;
+}
+.font{
+    font: 22px;
+    font-weight: bold;
+    height: 35px;
+}
+.btn2{
+    float: right;
+}
